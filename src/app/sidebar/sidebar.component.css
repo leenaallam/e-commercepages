@@ -1,0 +1,27 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: red;
+  height: 100%;
+}
+mat-sidenav-container {
+  height: 100%;
+}
+mat-sidenav,
+mat-sidenav-content {
+  padding: 16px;
+}
+mat-sidenav {
+  background-color: aqua;
+}
+
+.wrapper {
+  width: 240px;
+}
+
+button {
+  margin-bottom: 12px;
+}
