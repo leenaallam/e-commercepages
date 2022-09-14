@@ -3,5 +3,7 @@
 }
 .mat-elevation-z8 {
   width: 80%;
-  margin-left: 19vw;
+  margin-top: 13vw;
+  margin-left: 7vw;
+  box-shadow: none;
 }

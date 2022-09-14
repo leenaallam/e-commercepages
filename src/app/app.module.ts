@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { SidebarComponent } from './sidebar/sidebar.component';
-//import { titlesComponent } from './titles/titles.component';
+import { TitlesComponent } from './titles/titles.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GameballTableComponent } from './gameball-table/gameball-table.component';
 import { MatTableModule } from '@angular/material/table';
@@ -16,7 +16,12 @@ import { MatSortModule } from '@angular/material/sort';
 import { from } from 'rxjs';
 
 @NgModule({
-  declarations: [AppComponent, SidebarComponent, GameballTableComponent],
+  declarations: [
+    AppComponent,
+    SidebarComponent,
+    GameballTableComponent,
+    TitlesComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
