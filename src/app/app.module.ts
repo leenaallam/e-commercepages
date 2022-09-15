@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { TitlesComponent } from './titles/titles.component';
+import { TogglebuttonComponent } from './togglebutton/togglebutton.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GameballTableComponent } from './gameball-table/gameball-table.component';
 import { MatTableModule } from '@angular/material/table';
@@ -13,6 +14,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 //import { MatPaginatorModule } from '@angular/material';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSortModule } from '@angular/material/sort';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+
 import { from } from 'rxjs';
 
 @NgModule({
@@ -21,6 +24,7 @@ import { from } from 'rxjs';
     SidebarComponent,
     GameballTableComponent,
     TitlesComponent,
+    TogglebuttonComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,6 +36,7 @@ import { from } from 'rxjs';
     MatPaginatorModule,
     MatSidenavModule,
     MatSortModule,
+    MatButtonToggleModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

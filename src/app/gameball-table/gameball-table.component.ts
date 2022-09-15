@@ -23,9 +23,7 @@ export class GameballTableComponent implements AfterViewInit, OnInit {
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
   displayedColumns = ['name', 'id'];
 
-  constructor(private service: AppServiceService) {
-    // this.dataSource = [{ name: 'farah', id: '1' }];
-  }
+  constructor(private service: AppServiceService) {}
   async ngOnInit() {
     this.dataSource = await this.getDataFromApi();
     console.log(this.dataSource);
