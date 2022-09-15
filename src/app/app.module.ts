@@ -17,6 +17,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 import { from } from 'rxjs';
+import { FirstpageComponent } from './firstpage/firstpage.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { from } from 'rxjs';
     GameballTableComponent,
     TitlesComponent,
     TogglebuttonComponent,
+    FirstpageComponent,
   ],
   imports: [
     BrowserModule,

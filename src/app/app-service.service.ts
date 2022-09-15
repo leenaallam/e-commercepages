@@ -4,6 +4,7 @@ import axios from 'axios';
 @Injectable({
   providedIn: 'root',
 })
+//fetching data from api
 export class AppServiceService {
   constructor(private http: HttpClient) {}
   async getData() {
