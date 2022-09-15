@@ -53,12 +53,12 @@
   transition: 0.7s;
 }
 
-.vegs:hover {
+.elec:hover {
   background-color: #fff6f1;
 
   transition: 0.7s;
 }
-.vegs:hover h1 {
+.elec:hover h1 {
   color: #fe6215;
 }
 .fruits:hover h1 {
@@ -75,7 +75,7 @@
   fill: #fe6215;
 }
 
-.vegs:hover .fruiticon {
+.elec:hover .fruiticon {
   fill: #fe6215 !important;
 }
 .fruits:hover .fruiticon {
